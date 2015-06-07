@@ -1,0 +1,66 @@
+
+-----------------Comandos básicos Github----------------------------------------
+1. Para clonar un repositorio que está en el servidor de github:
+git clone git://github.com/jemole/drScratch.git
+
+git clone git://github.com/titua77/MemoriaTFG-CristianChushig.git
+
+2. Para revisar que existen cambios en el repositorio que hemos clonados:
+git pull git://github.com/jemole/drScratch.git
+
+
+3. Para ver el estado de los cambios, dentro del repositorio:
+git status
+
+4. Actualizar repositorio remoto
+git add <ficheros>
+git commit -m "First steps in github"
+git push https://github.com/jemole/drScratch.git
+
+
+
+5. Para mostrart las ramas locales que tenemos:
+gir branch
+
+6. Para mostrar las ramas en el servidor remoto:
+git branch -a
+
+7. Aparecer nuevas ramas:
+git checkout -t origin/development
+
+
+machine learning vs zigbee vs social media vs kit educacional
+framework red de sensores
+dispositivos de bajo coste
+construir placa con core cc2531 y sensores(humedad, temperatura, presencia)
+brain sensinode, al estilo raspiberry
+prueba de funcionamiento zigbee
+seguridad vs confort vs ahorro energético
+promover consciencia eficiencia energética
+pensamiento computacional + servicio + firmware
+
+
+
+
+-------------------Crear nuevo repositorio--------------------------------------
+Nos situamos en el directorio que queramos y ejecutamos, por ejemplo en el directorio:
+	cd /proyectos/mi-libreria
+	git init
+	Initialized empty Git repository in /proyectos/mi-libreria/.git/
+
+Para saber el estado usamos git status.
+Añadir recursivamente un directorio.
+git add .
+Y luego hacemos el commit
+git commit -m "mensaje"
+
+Para añadir en repositorio remoto ver:
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+
+
+
+
+
+--------------------URL de interes---------------------------------------------
+1. http://www.adictosaltrabajo.com/tutoriales/tutoriales.php?pagina=git-branch-bash
