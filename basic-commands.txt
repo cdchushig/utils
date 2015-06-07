@@ -29,17 +29,6 @@ git branch -a
 git checkout -t origin/development
 
 
-machine learning vs zigbee vs social media vs kit educacional
-framework red de sensores
-dispositivos de bajo coste
-construir placa con core cc2531 y sensores(humedad, temperatura, presencia)
-brain sensinode, al estilo raspiberry
-prueba de funcionamiento zigbee
-seguridad vs confort vs ahorro energético
-promover consciencia eficiencia energética
-pensamiento computacional + servicio + firmware
-
-
 
 
 -------------------Crear nuevo repositorio--------------------------------------
